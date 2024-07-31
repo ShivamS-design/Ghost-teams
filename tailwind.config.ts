@@ -19,10 +19,9 @@ const config = {
       },
     },
     extend: {
-      extend: {
-        fontFamily: {
-          sans: ["var(--font-sans)", ...fontFamily.sans],
-        },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       colors: {
         border: "hsl(var(--border))",
